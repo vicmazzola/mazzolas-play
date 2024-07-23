@@ -1,9 +1,8 @@
 *,
 *::before,
 *::after {
-    --azul-escuro: #154580;
-    --azul-medio: #3970BE;
-    --azul-claro: #E5F1FF;
+   
+    
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
     box-sizing: border-box;
@@ -28,16 +27,18 @@ body {
     background-color: beige;
     height: 80px;
     width: 100%;
-    padding: 0 25px;
+    padding: 0 20px;
+   
 }
 
 .logo__item {
-    background-image: url(../img/cabecalho/code-favicon-32x32.png);
+    background-image: url(../img/cabecalho/play.png);
     font-size: 18px;
     font-weight: 505;
+    text-wrap: nowrap;
     color: black;
     background-repeat: no-repeat;
-    padding: 3px 35px;
+    padding: 7px 35px;
     cursor: pointer;
 }
 
@@ -92,7 +93,7 @@ body {
     background-image: url(../img/cabecalho/user.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 13px 30px 13px 13px;
+    padding: 13px 20px 13px 13px;
 }
 
 /* MENU LATERAL */

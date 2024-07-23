@@ -33,11 +33,11 @@ body {
 
 .logo__item {
     background-image: url(../img/cabecalho/code-favicon-32x32.png);
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 505;
     color: var(--azul-escuro);
     background-repeat: no-repeat;
-    padding: 5px 65px;
+    padding: 3px 35px;
     cursor: pointer;
 }
 
@@ -259,6 +259,12 @@ body {
         height: 100vh;
     }
 
+    .logo__item {
+        font-size: 28px;
+        font-weight: 505;
+        padding: 5px 65px;
+    }
+
     /* ESTILOS DO MENU LATERAL */
 
     .menu__container {
@@ -307,6 +313,12 @@ body {
 }
 
 @media(min-width: 1440px) {
+
+    .logo__item {
+        font-size: 28px;
+        font-weight: 505;
+        padding: 5px 65px;
+    }
 
     /* SEÇÃO SUPERIOR */
 

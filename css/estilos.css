@@ -89,7 +89,7 @@ body {
 }
 
 .cabecalho__avatar {
-    background-image: url(../img/cabecalho/Avatar.png);
+    background-image: url(../img/cabecalho/user.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
@@ -98,7 +98,7 @@ body {
 /* MENU LATERAL */
 
 .menu__container {
-    background-color: var(--azul-escuro);
+    background-color: #dd723d;
     font-size: 14px;
 }
 
@@ -106,6 +106,7 @@ body {
     background-color: var(--azul-medio);
     transition: .5s;
 }
+
 
 .icone__inicio::before {
     content: url(../img/menu/home.png);
@@ -143,28 +144,28 @@ body {
     content: url(../img/menu/Avatar_Alura.png);
 }
 
-.icone__gaveta::before {
-    content: url(../img/menu/Avatar_Gaveta.png);
+.icone__fiap::before {
+    content: url(../img/menu/fiap.png);   
 }
 
-.icone__ballerini::before {
-    content: url(../img/menu/Avatar_Rafa.png);
+.icone__rockstar::before {
+    content: url(../img/menu/rockstar.png);
 }
 
-.icone__iamarino::before {
-    content: url(../img/menu/Avatar_Atila.png);
+.icone__gamespot::before {
+    content: url(../img/menu/gamespot.png);
 }
 
-.icone__souto::before {
-    content: url(../img/menu/Avatar_Souto.png);
+.icone__ign::before {
+    content: url(../img/menu/ign.jpeg);
 }
 
-.icone__nerd::before {
-    content: url(../img/menu/Avatar_Jovem_Nerd.png);
+.icone__playstation::before {
+    content: url(../img/menu/playstation.png);
 }
 
-.icone__deschamps::before {
-    content: url(../img/menu/Avatar_Deschamps.png);
+.icone__xbox::before {
+    content: url(../img/menu/xbox.png);
 }
 
 .icone__mostrar::before {

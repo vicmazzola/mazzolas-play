@@ -32,9 +32,12 @@ body {
 }
 
 .logo__item {
-    background-image: url(../img/cabecalho/Logo.png);
+    background-image: url(../img/cabecalho/code-favicon-32x32.png);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--azul-escuro);
     background-repeat: no-repeat;
-    padding: 15px 65px;
+    padding: 5px 65px;
     cursor: pointer;
 }
 
@@ -270,6 +273,10 @@ body {
         width: 100%;
     }
 
+    .menu__itens {
+        font-size: 10px;
+    }
+
     /* ESTILOS DA SECAO SUPERIOR */
 
     .superior__secao__container {
@@ -311,6 +318,10 @@ body {
 
     .menu__lista {
         border-bottom: 1.5px solid var(--azul-medio);
+    }
+
+    .menu__itens {
+        font-size: 16px;
     }
 
     /* ESTILOS VIDEOS */
